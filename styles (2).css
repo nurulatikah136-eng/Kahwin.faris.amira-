@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fffaf0;
+  color: #333;
+}
+.hero {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #fff3d1, #ffd700);
+  color: #4a2f00;
+}
+.details, .rsvp, .maps, .calendar, .music-player {
+  padding: 30px 15px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #d4af37;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.btn:hover {
+  background: #bfa12f;
+}
+#musicBtn {
+  padding: 12px 25px;
+  border: none;
+  background: #d4af37;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+#musicBtn:hover {
+  background: #bfa12f;
+}
